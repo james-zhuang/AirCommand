@@ -1,0 +1,72 @@
+					
+
+				AIR COMMAND
+
+
+
+
+
+Made by:                         
+	James Zhuang
+	Soham Pardeshi
+
+
+Main Screen:
+	Multi-Player
+	Tutorial
+	Options
+
+
+
+Networking
+	
+	(Soham) broadcast to Everywhre
+	[Server] responds to (Soham)
+	(Soham) connects to [Server]
+	(Soham) waits
+	
+	(James) broadcast to Everywhre
+	[Server] responds to (James)
+	(James) connects to [Server]
+	(James) waits
+	
+	[Server] connects (James) and (Soham)
+	
+Tutorial:
+ 	Player One: Arrow Keys + Spacebar
+	Player Two: WASD Keys + T
+
+
+Game
+	On start, the main menu pops up, giving you two options: 
+		1) The Tutorial gives you an intuitive, basic introduction on how to play.
+		2) The Multi-Player connects you to another computer, where both players are out on the screen. A 
+		   small pane on the side shows a health bar and an overheating bar(Over heating causes the plane to stop firing)
+		   When the enemy plane is shot down, a victory  screen appears and you disconnect. Otherwise, if you get shot down, 
+		   a tutorial option will come up, and a defeat screen will appear.
+
+Classes:
+	
+	James)
+		Main
+		<Plane>
+		Bullet
+		Enemy Plane(Graphics Aspect)
+		Player Plane(Graphics Aspect)
+		TutorialScreen
+		Game Screen
+		Graphics
+		(stuff that works)
+
+	
+	Soham)	Client
+		Server
+		Game Screen
+		LoadScreen
+		TutorialScreen
+		Enemy Plane(Network Aspect)
+		Player Plane(Network Aspect)
+		(stuff that breaks)
+		
+
+	
